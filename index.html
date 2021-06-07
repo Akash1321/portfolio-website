@@ -5,70 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio site</title>
+    <title>home | portfolio site</title>
     <link href="styles.css" rel="stylesheet" />
-
-    
-
-    
 </head>
 
 <body>
-    <h1>Component library</h1>
-    <p>This is a component library created for building a portfolio site.</p>
-    <hr>
+    <!-- nav -->
+    <nav class="navigation container">
+        <div class="nav-brand">AKS</div>
+        <ul class="list-no-bullet nav-pills">
+            <li class="list-inline"> <a class="link link-active" href="#">Home</a></li>
+            <li class="list-inline"><a class="link" href="#">Projects</a></li>
+            <li class="list-inline"><a class="link" href="#">Blogs</a></li>
+        </ul>
+    </nav>
+    <!-- Hero -->
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg">
+        <h2 class="hero-heading">Hello! Glad to see you here. I'm Akash Sarkar a self-taught <span class="highlight">Web
+                developer</span></h2>
+    </header>
+    <!-- skills -->
 
-    <h2>@Typography</h2>
-    <h1>H1</h1>
-    <h2>H2</h2>
-    <p>This is the paragraph text. It will be there for the content</p>
-    <p>This will contain <strong> Bold </strong> text.</p>
-    <small>This is for caaptions and labels</small>
-    <hr>
+    <section class="section fill">
+        <div class="container container-center">
+            <h1>Skills</h1>
+            <p>I'm familiar with HTML5, CSS, Javascript, NodeJs, ReactJs, and UI/UX design. </p>
+        </div>
 
-    <h2>@Container</h2>
-<h3>fuild container</h3>
-<div class="container container-fluid">This will be the fluid container</div>
-<h3>center container</h3>
-<div class="container container-center">This is a center container</div>
-<hr>
+    </section>
+    <!-- Projects -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>
+                I have worked on various projects and listed the best one's over here
+            </p>
+            <a class="link link-primary" href="#">See projects</a>
 
-<h2>@Links</h2>
-<a class="link link-primary" href="#">Primary link</a>
+        </div>
 
-<a class="link link-secondary" href="#">Secondary link</a>
+    </section>
+    <!-- Blogs -->
+    <section class="section fill">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>Since I started web developments I have been documenting my journey and learnings. </p>
+            <a class="link link-secondary" href="#">Read blogs</a>
+        </div>
 
-<hr>
+    </section>
 
-<h2>@Nav</h2>
-<div>Brand logo</div>
-<ul>
-    <li>Works</li>
-    <li>About</li>
-    <li>Contact</li>
-</ul>
-<hr>
+    <footer class="footer">
+        <div class="footer-heading container container-center"> Connect with me on</div>
+        <ul class="list-no-bullet">
+            <li><a class="link" href="#">Github</a></li>
+            <li><a class="link" href="#">Twitter</a></li>
+            <li><a class="link" href="#">Linkedin</a></li>
 
-<h2>@Header</h2>
-<img src="images/hero.svg">
-<h3>Header heading</h3>
-<hr>
+        </ul>
+    </footer>
 
-<h2>@Section</h2>
-<h3>Normal section</h3>
-<div>The heading will be centered and the 
-    padding will be top and bottom</div>
 
-<h3>Off white section</h3>
-<div>Background change</div>
-<hr>
 
-<h2>@Footer</h2>
-<ul>
-    <li>social links 1</li>
-    <li>social links 2</li>
-    <li>social links 3</li>
-</ul>
+
+
+
+
+
+
 
 </body>
 
